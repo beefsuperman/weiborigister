@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kunyang.android.wbeach.MainActivity">
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登录到微博"/>
+
+    <Button
+        android:id="@+id/deliver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="给微博发送新消息"/>
+</LinearLayout>
