@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+    <LinearLayout android:id="@+id/LinearLayout01"
+                  android:layout_height="wrap_content" android:orientation="horizontal"
+                  android:layout_width="fill_parent" android:gravity="center_horizontal"
+                  android:layout_marginTop="2dip" android:background="#669900">
+
+        <!-- Use layout_weight to stretch the EditText and compress the button.
+            To avoid text wrap, the editable text is forced to occupy only one line -->
+        <EditText android:layout_width="wrap_content"
+                  android:typeface="normal" android:layout_weight="1" android:lines="1"
+                  android:ellipsize="middle" android:hint="@string/hint" android:id="@+id/search_key"
+                  android:layout_height="fill_parent"></EditText>
+
+        <ImageButton android:layout_width="wrap_content"
+                     android:src="@drawable/ic_menu_search" android:id="@+id/btn_ok"
+                     android:layout_height="wrap_content"></ImageButton>
+
+    </LinearLayout>
+    <TextView android:layout_height="wrap_content" android:id="@+id/tweet_header"
+              android:gravity="right" android:layout_width="fill_parent"
+              android:paddingRight="4dp" android:background="#99cc33"
+              android:textColor="#000000" android:textSize="11dp"></TextView>
+
+
+    <ListView android:layout_width="wrap_content"
+              android:layout_height="wrap_content" android:id="@+id/tweet_list"></ListView>
+</LinearLayout>

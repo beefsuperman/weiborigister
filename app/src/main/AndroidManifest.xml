@@ -21,6 +21,7 @@
         <activity android:name=".WBAuthActivity"/>
         <activity android:name=".WBShareMainActivity"/>
         <activity android:name=".WBShareActivity"/>
+        <activity android:name=".IntroActivity"/>
     </application>
 
 </manifest>

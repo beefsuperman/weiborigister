@@ -47,6 +47,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        this.findViewById(R.id.search).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this,IntroActivity.class));
+            }
+        });
+
     }
 
     @Override
