@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">WeiboSDKDemo</string>
+    <string name="app_name">微博小助手</string>
 
     <!-- weibo search -->
     <string name="hint">Weibo search</string>
@@ -18,7 +18,7 @@
     <string name="weibosdk_demo_feature_pay_page">支付接口 </string>
     <string name="weibosdk_demo_shear_message">分享到私信 </string>
     <string name="weibosdk_demo_feature_upload_log">上传统计日志</string>
-    
+
     <!-- 获取 Token -->
     <string name="weibosdk_demo_obtain_token_via_sso_all_in_one">SSO 授权（ALL IN ONE）</string>
     <string name="weibosdk_demo_obtain_token_via_web">SSO 授权（Web）</string>
@@ -44,20 +44,20 @@
     <string name="weibosdk_demo_toast_obtain_code_success">获取 Code 成功</string>
     <string name="weibosdk_demo_toast_obtain_code_failed">获取 Code 失败</string>
     <string name="weibosdk_demo_toast_obtain_token_success">获取 Token 成功</string>
-    <string name="weibosdk_demo_toast_obtain_token_failed">获取 Token 失败</string>   
-        
+    <string name="weibosdk_demo_toast_obtain_token_failed">获取 Token 失败</string>
+
     <string name="weibosdk_demo_game_achievement_add">后台游戏成就对象入库</string>
-    <string name="weibosdk_demo_game_achievement_update">后台游戏成就对象更新</string> 
-    <string name="weibosdk_demo_game_relation_add">用户获得游戏成就关系入库</string> 
-    <string name="weibosdk_demo_game_relation_update">用户获得游戏成就关系更新</string> 
-    
-    <string name="weibosdk_demo_game_score_add">得分关系入库</string> 
-    <string name="weibosdk_demo_game_read_player_score">读取玩家游戏分数</string> 
-    <string name="weibosdk_demo_game_read_player_friend_score">读取玩家好友的游戏分数 </string> 
-    <string name="weibosdk_demo_game_read_achievement_user_gain">读取玩家在某个游戏下的成就 </string> 
-    <string name="weibosdk_demo_game_invatation_friend_list">邀请好友列表 </string> 
-    <string name="weibosdk_demo_game_invatation_one_friend">邀请好友  单个h5页面 </string>  
-    <string name="weibosdk_demo_game_result_msg">接口请求结果 </string>   
+    <string name="weibosdk_demo_game_achievement_update">后台游戏成就对象更新</string>
+    <string name="weibosdk_demo_game_relation_add">用户获得游戏成就关系入库</string>
+    <string name="weibosdk_demo_game_relation_update">用户获得游戏成就关系更新</string>
+
+    <string name="weibosdk_demo_game_score_add">得分关系入库</string>
+    <string name="weibosdk_demo_game_read_player_score">读取玩家游戏分数</string>
+    <string name="weibosdk_demo_game_read_player_friend_score">读取玩家好友的游戏分数 </string>
+    <string name="weibosdk_demo_game_read_achievement_user_gain">读取玩家在某个游戏下的成就 </string>
+    <string name="weibosdk_demo_game_invatation_friend_list">邀请好友列表 </string>
+    <string name="weibosdk_demo_game_invatation_one_friend">邀请好友  单个h5页面 </string>
+    <string name="weibosdk_demo_game_result_msg">接口请求结果 </string>
 
     <!-- 分享微博入口界面 -->
     <string name="weibosdk_demo_is_support_sdk">当前微博客户端是否支持 SDK</string>
@@ -88,14 +88,13 @@
     <string name="weibosdk_demo_share_video_title">分享视频</string>
     <string name="weibosdk_demo_share_voice_title">分享声音</string>
 
-    
-   <!-- 分享到私信消息--> 
-   <string name="weibosdk_demo_share_to_weibo_weiyou">分享到微博私信好友</string>
-   	<string name="share_card">card分享到私信</string>
-   	<string name="share_url">url分享到私信</string>
-   
-    
-    
+
+    <!-- 分享到私信消息-->
+    <string name="weibosdk_demo_share_to_weibo_weiyou">分享到微博私信好友</string>
+    <string name="share_card">card分享到私信</string>
+    <string name="share_url">url分享到私信</string>
+
+
     <!-- 分享所用的测试数据 -->
     <string name="weibosdk_demo_share_webpage_desc">网页描述：XXX</string>
     <string name="weibosdk_demo_share_music_desc">音乐描述：XXX</string>
@@ -125,13 +124,13 @@
     <string name="weibosdk_demo_toast_share_canceled">取消分享</string>
     <string name="weibosdk_demo_toast_share_response_args_success">收到微博发起的请求成功</string>
     <string name="weibosdk_demo_toast_share_response_args_failed">收到客户端请求消息失败</string>
-    
+
     <!-- 微博支付 -->
     <string name="weibosdk_demo_weibo_pay_get_order_uri">http://180.149.139.199:8081/v2/pay/paydemo</string>
     <string name="weibosdk_demo_weibo_pay_get_order">获取订单</string>
     <string name="weibosdk_demo_weibo_pay">微博支付</string>
     <string name="weibosdk_demo_support_weibo_pay"> 当前微博客户端是否支持支付？</string>
-    
+
     <!-- 登录/注销按钮 -->
     <string name="weibosdk_demo_login_hint"><b>一键登录按钮：</b>\n（有以下三种样式，第一种为默认效果）</string>
     <string name="weibosdk_demo_login_with_text_hint"><b>登录/注销按钮：</b>\n（有以下两种样式，第一种为默认效果，可修改）</string>
@@ -140,27 +139,26 @@
     <string name="weibosdk_demo_logout_success">已注销</string>
     <string name="weibosdk_demo_logout_failed">注销失败</string>
     <string name="weibosdk_demo_logout_failed_1">注销失败，请检查 Token 是否正确（一个 token 不能重复注销多次）</string>
-    
+
     <!-- OpenAPI -->
-	<string name="weibosdk_demo_openapi_revoke_auth_success">授权回收成功</string>
-	<string name="weibosdk_demo_openapi_revoke_auth_failed">授权回收失败</string>
+    <string name="weibosdk_demo_openapi_revoke_auth_success">授权回收成功</string>
+    <string name="weibosdk_demo_openapi_revoke_auth_failed">授权回收失败</string>
     <string name="weibosdk_demo_openapi_invite_uid_hint">请输入被邀请人的uid</string>
     <string name="weibosdk_demo_openapi_invite">邀请</string>
     <string name="weibosdk_demo_openapi_invite_success">发送邀请成功</string>
     <string name="weibosdk_demo_openapi_invite_failed">发送邀请失败</string>
     <string name="weibosdk_demo_access_token_is_empty">Access Token 不存在，请先登录</string>
-   
-        <!-- scheme 调用 -->
-	<string name="goto_profile">查看某人主页面</string>
-	<string name="goto_home_message">进入微博主页消息页面</string>
+
+    <!-- scheme 调用 -->
+    <string name="goto_profile">查看某人主页面</string>
+    <string name="goto_home_message">进入微博主页消息页面</string>
     <string name="goto_hot_weibo">进入热门微博</string>
     <string name="goto_hot_topic">进入热门话题</string>
     <string name="goto_send_weibo">进入发微薄页面</string>
 
-    
-    
-    	<!-- 统计上传页 -->
-	<string name="weibosdk_demo_fragment_title">This is a fragment page</string>
+
+    <!-- 统计上传页 -->
+    <string name="weibosdk_demo_fragment_title">This is a fragment page</string>
     <string name="weibosdk_demo_log_upload">强制上传</string>
     <string name="weibosdk_demo_log_event">click event</string>
     <string name="weibosdk_demo_fragment_create">dynamic create fragment</string>
@@ -168,8 +166,8 @@
     <string name="weibosdk_demo_fragment_remove">remove fragment</string>
     <string name="weibosdk_demo_fragment_event">click fragment</string>
     <string name="weibosdk_demo_fragment_btn">fragment click</string>
-    
-    
+
+
     <!-- 其它 -->
     <string name="weibosdk_demo_launch_post_weibo">发送微博</string>
     <string name="weibosdk_demo_launch_nearby_people">周边的人</string>

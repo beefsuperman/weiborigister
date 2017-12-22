@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kunyang.android.wbeach.StartActivity">
+
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="64dp"
+        android:layout_centerInParent="true"
+        android:layout_height="64dp"
+        android:background="@drawable/weibo_big"/>
+
+        <TextView
+            android:layout_below="@id/pic"
+            android:layout_marginTop="48dp"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="随时随地发现新鲜事!"/>
+</RelativeLayout>
+</RelativeLayout>
